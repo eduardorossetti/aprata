@@ -1,0 +1,40 @@
+.select {
+  position: relative;
+}
+
+.select .search {
+  border: 1px solid #b3b8bd;
+  position: absolute;
+  top: 70px;
+  background-color: white;
+  margin-top: 0.5px;
+  z-index: 10;
+}
+
+.search-result {
+  overflow-y: auto;
+  max-height: 150px;
+}
+
+.search-result ul {
+  margin: 0;
+  padding: 0;
+}
+
+.search-result li {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px 10px;
+  border-bottom: 1px;
+  background-color: white;
+}
+
+.search-result li:hover {
+  background-color: grey;
+  color: white;
+  cursor: default;
+}
+
+/* .searchbar.selected::-webkit-input-placeholder {
+  color: black!important;
+} */
